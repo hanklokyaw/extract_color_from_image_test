@@ -4,7 +4,6 @@ from flask import Flask, render_template, flash, request, redirect, url_for
 from flask_bootstrap import Bootstrap
 from werkzeug.utils import secure_filename
 import os
-import pandas as pd
 
 
 UPLOAD_FOLDER = "static/images"
